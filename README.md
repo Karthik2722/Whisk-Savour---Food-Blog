@@ -1,7 +1,9 @@
 Food Blog Web Application
 --------------------------------
 
+-----------------
 Whisk & Savour
+-----------------
 
 Overview:
 -----------
