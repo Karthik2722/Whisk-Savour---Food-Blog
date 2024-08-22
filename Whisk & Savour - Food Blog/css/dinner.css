@@ -1,0 +1,255 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 167, 195); 
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(243, 129, 169);
+}
+
+.div1 nav {
+    position: absolute;
+    text-align: right;
+    gap: 10px;
+    right: 80px;
+    top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(136, 62, 107);
+}
+
+header .div1 h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#spot h1 {
+    text-align: center;
+    color: rgb(136, 62, 107);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 650;
+    font-size: 33px;
+    font-style: oblique;
+    margin-top: 70px;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.recipe-card h2 {
+    font-size: 20px;
+    color: rgb(136, 62, 107);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    margin-top: 10px;
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: black;
+}
+
+#recipe-details {
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+#recipe-details h2 {
+    color: rgb(136, 62, 107);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#recipe-details img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+
+#recipe-details ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#recipe-details ul li {
+    margin-bottom: 10px;
+}
+
+#recipe-details p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+footer {
+    display: flex;
+    margin: 0;
+    padding: 1em 0;
+    background-color: rgb(243, 129, 169);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+#recipe-details1 {
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+#recipe-details1 h2 {
+    color: rgb(136, 62, 107);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#recipe-details1 img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+
+#recipe-details1 ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#recipe-details1 ul li {
+    margin-bottom: 10px;
+}
+
+#recipe-details1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#recipe-details2 {
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+#recipe-details2 h2 {
+    color: rgb(136, 62, 107);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#recipe-details2 img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+
+#recipe-details2 ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#recipe-details2 ul li {
+    margin-bottom: 10px;
+}
+
+#recipe-details2 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+} 
